@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table2</title>
+    <style>
+      table {
+        border: 1px solid black;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="3"><b>Seminar</b></th>
+        </tr>
+        <tr>
+          <td colspan="2"><b>Schedule</b></td>
+          <td rowspan="2"><b>Topic</b></td>
+        </tr>
+        <tr>
+          <td><b>Begin</b></td>
+          <td><b>End</b></td>
+        </tr>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2" style="background-color: lightyellow;">8:00 a.m</td>
+          <td rowspan="2" style="background-color: lightpink;">5:00 p.m</td>
+          <td>Int XML</td>
+        </tr>
+        <tr>
+          <td>Validity</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td style="background-color: lightyellow;">8:00 a.m</td>
+          <td style="background-color: lightyellow;">11:00 a.m</td>
+          <td>           
+            XPath
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: lightyellow;">11:00 a.m</td>
+          <td style="background-color: lightgreen;">2:00 p.m</td>
+          <td rowspan="2">XSL Transformations</td>
+        </tr>
+        <tr>
+          <td style="background-color: lightgreen;">2:00 p.m</td>
+          <td style="background-color: lightpink;">5:00 p.m</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Wednesday</td>
+          <td style="background-color: lightyellow;">8:00 a.m</td>
+          <td style="background-color: lightgreen;">12:00 p.m</td>
+          <td>XSL Formatting</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.button {
+  padding: 12px;
+  border: 1px solid gray;
+  width: fit-content;
+  color: white;
+  background-color: orange;
+}
