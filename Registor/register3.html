@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register3</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: lightgray;
+      }
+      #parent {
+        justify-content: center;
+        padding: 10px;
+        background-color: white;
+      }
+      .main {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 15px;
+      }
+      .main label {
+        width: 42%;
+        text-align: right;
+      }
+      .main input {
+        width: 300px;
+        border: 1px solid black;
+      }
+      .main select {
+        width: 305px;
+        border: 1px solid black;
+
+      }
+      .main textarea {
+        width: 300px;
+        height: 80px;
+        border: 1px solid black;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div class="main">
+        <label> Task Name</label>
+        <input type="text" />
+      </div>
+      <div class="main">
+        <label>Note</label>
+        <textarea></textarea>
+      </div>
+      <div class="main">
+        <label>Task Delegations</label>
+        <input type="text" />
+      </div>
+      <div class="main">
+        <label>From</label>
+        <div>
+          <input type="date" style="width: 145px; margin-right: 6px" />
+          <input type="time" style="width: 145px" />
+        </div>
+      </div>
+      <div class="main">
+        <label>To</label>
+        <div>
+          <input type="date" style="width: 144px; margin-right: 6px" />
+          <input type="time" style="width: 144px" />
+        </div>
+      </div>
+      <div class="main">
+        <label>All Day</label>
+        <input type="checkbox" style="width: fit-content; margin: 0" />
+      </div>
+      <div class="main">
+        <label>Priority</label>
+        <select>
+          <option value="">None</option>
+          <option value="">Low</option>
+          <option value="">Normal</option>
+          <option value="">High</option>
+          <option value="">Highest</option>
+        </select>
+      </div>
+      <div class="main">
+        <label>Calendar</label>
+        <select>
+          <option value="">Default</option>
+          <option value="">None</option>
+        </select>
+      </div>
+      <div class="main">
+        <label>Task Category</label>
+        <select>
+          <option value="">All</option>
+          <option value="">Default</option>
+        </select>
+      </div>
+      <div class="main">
+        <label>Task Status</label>
+        <select>
+          <option value="">Needs Action</option>
+          <option value="">Finished</option>
+        </select>
+      </div>
+      <div class="main">
+        <label>Attachment</label>
+        <input style="border: none;" type="file" multiple />
+      </div>
+    </div>
+    <div style="background-color: lightgrey; padding: 15px">
+      <div style="display: flex; gap: 10px; justify-content: center">
+        <input
+          type="submit"
+          value="Save"
+          style="
+            border-radius: 25px;
+            padding: 3px 10px;
+            border: 1px solid black;
+          "
+        />
+        <input
+          type="reset"
+          value="Cancel"
+          style="
+            border-radius: 25px;
+            padding: 3px 10px;
+            border: 1px solid black;
+          "
+        />
+      </div>
+    </div>
+  </body>
+</html>
